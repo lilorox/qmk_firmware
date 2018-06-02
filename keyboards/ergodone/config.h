@@ -4,8 +4,8 @@
 #include "config_common.h"
 
 /* USB Device descriptor parameter */
-#define VENDOR_ID       0xFEED  // You may want to use 0x47EC for "KTEC", which doesn't seem to be in official use as of October 2017.
-#define PRODUCT_ID      0xE60D  // For "EGOD"/"ErgoDone".
+#define VENDOR_ID       0x1209  // InterBiometrics
+#define PRODUCT_ID      0x2327  // K.T.E.C.Bootloader Device
 // The official ErgoDone VID and PID are documented at http://pid.codes/1209/2328/.
 #define DEVICE_VER      0x0001
 #define MANUFACTURER    K.T.E.C.
@@ -20,7 +20,7 @@
 #define MOUSEKEY_DELAY          0
 #define MOUSEKEY_TIME_TO_MAX    60
 #define MOUSEKEY_MAX_SPEED      7
-#define MOUSEKEY_WHEEL_DELAY 0
+#define MOUSEKEY_WHEEL_DELAY    0
 
 #define TAPPING_TOGGLE  1
 
@@ -68,10 +68,10 @@
  */
 
 /* disable debug print */
-// #define NO_DEBUG
+//#define NO_DEBUG
 
 /* disable print */
-// #define NO_PRINT
+//#define NO_PRINT
 
 /* disable action features */
 //#define NO_ACTION_LAYER
